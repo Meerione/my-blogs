@@ -1,22 +1,47 @@
 
 export const posts =[
     {
+        id:1,
         title: "Координаты чудес. Как сверхновые осветили путь к современной астрофизике",
         titleDesc: "Координаты чудес. Как сверхновые осветили путь к современной астрофизике",
         date: "12-03-2020",
         desc: "Около 10 лет назад я вторично начал вести блог в «Живом журнале» (и вел его около полутора лет).Там я пробовал писать, в том числе, на научно-популярные, философские и религиозные темы и, в частности, о высоком Средневековье(в тот период я читал и перечитывал Жака ле Гоффа, Анри де Любака, Нормана Дэвиса и Йохана Хёйзингу).",
         countComments: '0',
-        imageUrl: "https://habrastorage.org/getpro/habr/upload_files/393/586/360/3935863609416855fa2234ecc2d38a2f.jpg"
-
+        imageUrl: "https://habrastorage.org/getpro/habr/upload_files/393/586/360/3935863609416855fa2234ecc2d38a2f.jpg",
+        user:[
+            {
+                imgLink: "https://habrastorage.org/r/w32/getpro/habr/avatars/27b/f35/f6f/27bf35f6f595fc136b70c384752ba387.jpg",
+                name: "OlegSivchenko ",
+                dateUser: "18 марта в 03:33"
+            }
+        ],
+        tag: [
+            "Научно-популярное",
+             "Физика",
+              "Астрономия"
+            ],
     },
     {
+        id:2,
         title: "Зачем архитектору Pet project?",
         titleDesc: "Анализ и проектирование систем Управление проектами DIY или Сделай сам",
         date: "14-02-2022",
         desc: "Эта статья – о Pet project, собственных проектах, которыми многие из нас занимаются в свободное время.Поговорим о том, нужны ли такие увлечения архитектору и как Pet project может помочь в работе.Также я расскажу о своих проектах и опыте, который я с их помощью получил.Добро пожаловать под кат!",
         countComments: '14',
-        imageUrl: "https://habrastorage.org/getpro/habr/upload_files/34d/fe3/296/34dfe3296f3906fa75f1921752e6e9d8.jpg"
-    }
+        imageUrl: "https://habrastorage.org/getpro/habr/upload_files/34d/fe3/296/34dfe3296f3906fa75f1921752e6e9d8.jpg",
+        user:[
+            {
+                imgLink: "https://habrastorage.org/r/w32/getpro/habr/avatars/27b/f35/f6f/27bf35f6f595fc136b70c384752ba387.jpg",
+                name: "Begimaifree ",
+                dateUser: "24 марта в 06:33"
+            }
+        ],
+        tag: ["Научно-популярное", 
+              "Физика", 
+              "Астрономия"
+             ],
+    },
+   
 ]
 export const popularPost = [
     {

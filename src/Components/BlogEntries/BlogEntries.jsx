@@ -12,12 +12,15 @@ return (
                 console.log(posts)
                 return <BlogItem
                     key={index}
+                    user={item.user}
                     title={item.title}
                     titleDesc={item.titleDesc}
                     date={item.date}
                     desc={item.desc}
+                    tag={item.tag}
                     countComments={item.countComments}
                     imageUrl={item.imageUrl}
+                    id={item.id}
                 />
             })
         }

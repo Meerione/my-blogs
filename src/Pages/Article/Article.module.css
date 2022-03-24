@@ -8,6 +8,13 @@
     font-size: 20px;
     text-align: justify;
 }
+.flex{
+    display: flex;
+
+}
+.flex p{
+    margin-right: 10px;
+}
 
 .container{
     display: flex;
