@@ -19,14 +19,8 @@ const postData = posts.find((item) =>{
         
         <div className={styles.main}>
             <div className={styles.container}>
-                {
-                postData.user.map((item)=>{
-                    return <>
-                    <img src={item.imgLink} alt="" />
-                    <p>{item.name} {item.dateUser}</p> <br />
-                </>
-                })
-                    }
+             <img src={postData.user.imgLink} alt="" />
+             <p>{postData.user.name} {postData.user.dateUser}</p> <br />    
             </div>
             <h1>{postData.title}</h1>
             <div className={styles.flex}>
