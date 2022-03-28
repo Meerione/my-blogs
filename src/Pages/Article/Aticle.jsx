@@ -1,9 +1,9 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-
 import styles from "./Article.module.css";
 import Comments from './Comments';
 import {posts} from "../../constant"
+
 
 
 const Article = () => {
@@ -12,7 +12,6 @@ const postId = parseInt(params.id)
 const postData = posts.find((item) =>{
     return item.id === postId;
 })
-
 
     console.log(postData);
     return (
