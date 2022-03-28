@@ -18,7 +18,7 @@ const Test = () => {
     }
 
         return (
-        <div className="container">
+            <div className="container" style={{ backgroundColor:"rgb(191, 227, 236);"}}>
             <button onClick={increment}>+1</button>
             <button onClick={decrement}>-1</button>
             <button onClick={getData}>Запрос данных</button>

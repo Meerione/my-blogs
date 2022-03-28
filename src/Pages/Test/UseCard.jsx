@@ -5,16 +5,20 @@ import styles from "./UseCard.module.css";
      console.log(props);
     return (
         <>
+        
         <div className={styles.cardContainer}>
-        <h3 className={styles.nick}>{props.name}</h3>
-        <p className="nick">{props.email}</p>
-        <p className="product">{props.phone}</p>
-        <p className="about">{props.website}</p>
-        <p>{props.companyName}</p>
-        <div className={styles.btnContainer}>
-            <button className={styles.btn}>Follow</button>
+        <div className="details">
+                    <h3 className={styles.nick}>{props.name}</h3>
+                    <p className={styles.email}>{props.email}</p>
+                    <p className={styles.phone}>{props.phone}</p>
+                    <p className={styles.website}>{props.website}</p>
+                    <p className={styles.company}>{props.companyName}</p>
         </div>
+                    <div className={styles.btnContainer}>
+                        <button className={styles.btn}>Follow</button>
+                    </div>
         </div>
+         
         </>
     );
 };
